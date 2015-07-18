@@ -1,5 +1,6 @@
 .container {
 	max-width: 75%;
+	background-color: #DBFFB8;
 }
 
 .jumbotron {
@@ -15,8 +16,20 @@
 	margin-top: -18px;
 }
 
+h2 {
+	border-bottom: 2px solid #AAA;	
+	margin-bottom: 25px;
+}
+
 h3 {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
+.img-border {
+	margin-left: 13px;
+	border: 3px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #000;
+}
