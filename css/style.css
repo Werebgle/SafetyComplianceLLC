@@ -1,10 +1,15 @@
 .container {
-	max-width: 75%;
-	background-color: #DBFFB8;
+	max-width: 75%;	
+	padding: 0;
+}
+
+.mainContainer {
+	background-color: #EBFFD6;
 }
 
 .jumbotron {
 	background-color: #008A2E;
+	padding-left: 20px;
 }
 
 .jumbotron h1 {
@@ -12,6 +17,7 @@
 }
 
 .greenCross {
+	margin-left: -15px;
 	margin-right: 50px;
 	margin-top: -18px;
 }
@@ -32,4 +38,9 @@ h3 {
 	border-style: solid;
 	border-radius: 5px;
 	border-color: #000;
+}
+
+.padding {
+	padding-left: 15px;
+	padding-right: 15px;
 }
