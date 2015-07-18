@@ -1,3 +1,7 @@
+.container {
+	max-width: 75%;
+}
+
 .jumbotron {
 	background-color: #008A2E;
 }
@@ -9,5 +13,10 @@
 .greenCross {
 	margin-right: 50px;
 	margin-top: -18px;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
