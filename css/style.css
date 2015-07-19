@@ -9,7 +9,6 @@
 
 .jumbotron {
 	background-color: #008A2E;
-	padding-left: 20px;
 }
 
 .jumbotron h1 {
@@ -17,30 +16,34 @@
 }
 
 .greenCross {
-	margin-left: -15px;
-	margin-right: 50px;
-	margin-top: -18px;
+	margin-left: -2%;
+	margin-right: 6%;
+	margin-top: -2%;
 }
 
 h2 {
-	border-bottom: 2px solid #AAA;	
-	margin-bottom: 25px;
+	border-bottom: .1em solid #AAA;	
+	margin-bottom: 3%;
 }
 
 h3 {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 0;
 }
 
 .img-border {
-	margin-left: 13px;
-	border: 3px;
+	margin-left: 2%;
+	border: .3em;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 4%;
 	border-color: #000;
+	margin-bottom: 5%;
 }
 
 .padding {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: .938em;
+	padding-right: .938em;
+}
+
+.paddingServicesList {
+	padding-left: 4%;
 }
