@@ -12,7 +12,7 @@
 }
 
 .jumbotron h1 {
-	color: #FFF;
+	color: #FFF;	
 }
 
 .greenCross {
@@ -48,9 +48,19 @@ h3 {
 	padding-left: 4%;
 }
 
-/***************************CONTACT PAGE**********************/
-
 .contactInfo svg {
   width: 1.5em;
   height: 1.5em;
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        background-color: red;        
+    }    
+}
+
+.well {
+	background-color: #F5FFEB;
+	border-radius: .75em;
+	font-style: italic;
 }
