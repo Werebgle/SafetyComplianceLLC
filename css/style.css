@@ -1,3 +1,7 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .container {
 	max-width: 75%;	
 	padding: 0;
@@ -35,7 +39,7 @@ h3 {
 	border: .3em;
 	border-style: solid;
 	border-radius: 4%;
-	border-color: #000;
+	border-color: #AAA;
 	margin-bottom: 5%;
 }
 
@@ -48,16 +52,35 @@ h3 {
 	padding-left: 4%;
 }
 
-.contactInfo svg {
+.navbarContactInfo svg {
   width: 1.5em;
   height: 1.5em;
 }
 
+.contactInfo svg {
+  width: 1em;
+  height: 1em;
+}
+
+.contactInfo li {
+  list-style-type: none;
+}
+
+.ourServices li {
+  list-style-type: disc;
+}
+
 @media screen and (max-width: 991px) {
-    body {
-        background-color: red;        
+    .jumbotron {
+        padding-top: 20px;
+        padding-bottom: 20px;        
     }    
 }
+
+@media screen and (max-width: 767px) {
+    .container {
+    	max-width: 95%;	
+		padding: 0;
 
 .well {
 	background-color: #F5FFEB;
