@@ -81,6 +81,8 @@ h3 {
     .container {
     	max-width: 95%;	
 		padding: 0;
+	}	
+}			
 
 .well {
 	background-color: #F5FFEB;
