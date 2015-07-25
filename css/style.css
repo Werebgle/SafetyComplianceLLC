@@ -52,13 +52,15 @@ h3 {
   height: 1.5em;
 }
 
+.contactInfo {
+  list-style-type: none;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
 .contactInfo svg {
   width: 1em;
   height: 1em;
-}
-
-.contactInfo li {
-  list-style-type: none;
 }
 
 .ourServices li {
