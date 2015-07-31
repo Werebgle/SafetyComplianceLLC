@@ -1,3 +1,5 @@
+/*USING RELATIVE UNIT DECLARATIONS FOR RESPONSIVENESS*/
+
 body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -67,6 +69,8 @@ h3 {
 	padding-right: .938em;
 	padding-bottom: 7%;
 }
+
+/*MEDIA QUERIES*/
 @media screen and (max-width: 991px) {
     .jumbotron {
         padding-top: 20px;
