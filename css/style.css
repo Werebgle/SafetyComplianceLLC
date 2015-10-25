@@ -1,7 +1,7 @@
 /*USING RELATIVE UNIT DECLARATIONS FOR RESPONSIVENESS*/
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif	
 }
 h2 {
 	border-bottom: .1em solid #AAA;	
@@ -10,8 +10,25 @@ h2 {
 h3 {
 	margin-top: 0;
 }
+.safety {
+	color:#FFF;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 4em;
+	font-weight: 700;
+	margin-top: -1%;
+	margin-bottom: -2.5%;
+	padding: 0;
+}
+.compliance {
+	color: #FFF;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
 .container {
-	max-width: 75%;	
+	max-width: 80%;	
 	padding: 0;
 }
 .mainContainer {
@@ -19,14 +36,6 @@ h3 {
 }
 .jumbotron {
 	background-color: #008A2E;
-}
-.jumbotron h1 {
-	color: #FFF;	
-}
-.greenCross {
-	margin-left: -2%;
-	margin-right: 6%;
-	margin-top: -2%;
 }
 .img-border {
 	margin-left: 2%;
@@ -73,8 +82,8 @@ h3 {
 /*MEDIA QUERIES*/
 @media screen and (max-width: 991px) {
     .jumbotron {
-        padding-top: 20px;
-        padding-bottom: 20px;        
+        /*padding-top: 120px;
+        padding-bottom: 120px;*/        
     }    
 }
 @media screen and (max-width: 767px) {
@@ -82,4 +91,6 @@ h3 {
     	max-width: 95%;	
 		padding: 0;
 	}	
-}
+
+
+
